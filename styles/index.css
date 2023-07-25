@@ -38,11 +38,13 @@ body {
 }
 .link a {
   text-decoration: none;
-  font-family: "Courier New", Courier, monospace;
-  font-weight: 800;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
   color: #d0d6f9;
-  font-size: 1.2em;
+  font-size: 1rem;
   position: relative;
+  letter-spacing: 0.09rem;
 }
 .link a::after {
   content: "";
@@ -55,8 +57,61 @@ body {
   background-color: #d0d6f9;
   opacity: 0;
   transition: opacity 0.3s ease;
-  /* text-decoration: 2px solid #D0D6F9 underline; */
 }
 .link a:hover::after {
   opacity: 1;
+}
+/* styling the intro section */
+.intro {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 20rem;
+  
+
+}
+.intro__text {
+  width: 40%;
+  margin-left: -10rem;
+}
+.intro__text h1 {
+  letter-spacing: 0.2rem;
+  color: #d0d6f9;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 400;
+
+}
+.intro__text h1 span {
+  color: #ffff;
+  font-size: 8.5rem;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 100;
+}
+#explore__circle {
+  width: 40%;
+}
+#intro__para {
+  width: 73%;
+  color: #d0d6f9;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.8rem;
+  line-height: 2;
+}
+#explore__circle {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffff;
+}
+#explore__circle span {
+  text-transform: uppercase;
+  font-family: 'Tajawal', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 100;
 }
