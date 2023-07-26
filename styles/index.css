@@ -115,3 +115,67 @@ body {
   font-size: 1.3rem;
   font-weight: 100;
 }
+/* tablet version */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  body {
+    background-image: url(../assets/home/background-home-tablet.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-attachment: scroll;
+  }
+  #navbar {
+    margin-top: 0;
+    width: auto;
+  }
+  #pages {
+    height: 10rem;
+  }
+  #list {
+    display: none;
+  }
+  #list__2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: inherit;
+    width: 70%;
+  list-style-type: none;
+  background-color: rgb(255, 255, 255, 0.1);
+  }
+  .link {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 5rem;
+  }
+  .link a {
+    font-size: 1.2rem;
+    font-weight: 500;
+    position: relative;
+  }
+  .link a::after {
+    content: "";
+    display: block;
+  position: absolute;
+  bottom: -4.4rem;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #d0d6f9;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  }
+  .link a:hover::after {
+    opacity: 1;
+  }
+  #header__line {
+    display: none;
+  }
+  .intro {
+    margin-top: 30rem;
+  }
+}
