@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import hamburger from "../../assets/shared/icon-hamburger.svg";
 import close from "../../assets/shared/icon-close.svg";
 import { NavLink } from "react-router-dom";
