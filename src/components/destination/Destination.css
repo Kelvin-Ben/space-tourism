@@ -1,0 +1,29 @@
+.container {
+  background-image: url("../../assets/destination/background-destination-desktop.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  text-align: center;
+  color: #eee;
+  font-size: 1.2rem;
+}
+.destinations {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.links {
+  border: 1px solid white;
+  width: 40%;
+  height: auto;
+}
+.details {
+  width: 80%;
+  height: auto;
+  border: 1px solid red;
+}
+.list {
+  font-size: 2rem;
+  border: 1px solid grey;
+}

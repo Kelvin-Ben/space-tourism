@@ -1,0 +1,146 @@
+.wrapper {
+  background-image: url(../../assets/home/background-home-desktop.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.intro {
+  width: 90%;
+  margin: 0 auto;
+  min-height: 60rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #d0d6f9;
+  font-weight: 300;
+  flex-wrap: wrap;
+}
+.travel {
+  max-width: 45rem;
+  min-height: 10rem;
+}
+.space {
+  text-transform: uppercase;
+  font-size: 15rem;
+  font-family: "Bellefair", serif;
+  font-weight: 200;
+  font-style: normal;
+  color: #fff;
+}
+.heading {
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  letter-spacing: 4.75px;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.text {
+  font-size: 1.9rem;
+  font-weight: 400;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 1px;
+  line-height: 2;
+}
+.btn_container {
+  display: inline-block;
+  position: relative;
+  height: 30rem;
+  width: 30rem;
+  top: 4rem;
+}
+.btn_container::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  backdrop-filter: blur(10px);
+  display: none;
+}
+.btn_container:hover::before {
+  display: flex;
+}
+.btn {
+  width: 20rem;
+  height: 20rem;
+  background-color: #fff;
+  font-family: "Bellefair", serif;
+  border-radius: 50%;
+  color: #0b0d17;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    background-image: url("../../assets/home/background-home-tablet.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .intro {
+    top: 15rem;
+    width: 100%;
+    flex-direction: column;
+  }
+  .text {
+    font-size: 1.6rem;
+    line-height: 1.7;
+    text-align: center;
+  }
+  .btn_container {
+    top: 10rem;
+    width: 28rem;
+    height: 28rem;
+  }
+  .btn {
+    height: 18rem;
+    width: 18rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper {
+    background-image: url("../../assets/home/background-home-mobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .travel {
+    width: 100%;
+    text-align: center;
+  }
+
+  .heading {
+    font-size: 2.8rem;
+  }
+  .space {
+    font-size: 13rem;
+  }
+  .text {
+    width: auto;
+    margin: auto;
+    font-size: 1.7rem;
+  }
+}
