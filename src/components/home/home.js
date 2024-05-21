@@ -2,8 +2,15 @@ import React from "react";
 import styles from "./home.module.css";
 
 const Home = () => {
+  const backgroundImage = require(`../../assets/home/background-home-desktop.jpg`);
+
   return (
-    <div className={styles.wrapper}>
+    <div
+      className={styles.wrapper}
+      style={{
+        backgroundImage: `url(${backgroundImage})`,
+      }}
+    >
       <div className={styles.intro}>
         <div className={styles.travel}>
           <h1 className={styles.heading}>so, you want to travel to</h1>

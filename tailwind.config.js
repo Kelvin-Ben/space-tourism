@@ -21,16 +21,33 @@ module.exports = {
     },
     extend: {
       colors: {
-        customDark: '#0d0d17',
-        customGray: '#a0a1a8',
+        customWhite: "#fff",
+        customGray: "#a0a1a8",
+        customBlue: "#d0d6f9",
       },
       transformOrigin: {
-        'top-left': '-50% -50%',
+        "top-left": "-50% -50%",
       },
       textUnderlineOffset: {
-        4: '1.563rem',
-      }
-    }
+        4: "1.563rem",
+      },
+    },
+    screens: {
+      sm: { min: "75px", max: "767px" },
+      // => @media (min-width: 640px and max-width: 767px) { ... }
+
+      md: { min: "768px", max: "1023px" },
+      // => @media (min-width: 768px and max-width: 1023px) { ... }
+
+      lg: { min: "1024px", max: "1279px" },
+      // => @media (min-width: 1024px and max-width: 1279px) { ... }
+
+      xl: { min: "1280px", max: "1535px" },
+      // => @media (min-width: 1280px and max-width: 1535px) { ... }
+
+      "2xl": { min: "1536px" },
+      // => @media (min-width: 1536px) { ... }
+    },
   },
   plugins: [],
 };
