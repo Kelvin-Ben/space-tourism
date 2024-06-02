@@ -8,7 +8,6 @@ module.exports = {
       roboto: ["Roboto"],
       bellefair: ["Bellefair"],
       sans: ["sans-serif"],
-      barlow: ["Barlow Condensed"],
     },
     fontSize: {
       sm: "0.8rem",
@@ -24,6 +23,7 @@ module.exports = {
         customWhite: "#fff",
         customGray: "#a0a1a8",
         customBlue: "#d0d6f9",
+        customDark: "#6c757d",
       },
       transformOrigin: {
         "top-left": "-50% -50%",
