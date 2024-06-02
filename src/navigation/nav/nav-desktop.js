@@ -7,7 +7,7 @@ const NavDesktop = () => {
   return (
     <>
       <img src={logo} alt="logo" className="logo" />
-      <div className="empty"></div>
+      <div className="empty 2xl:w-[30%] 2xl:left-[20rem] xl:w-[30%] xl:left-[16rem]"></div>
       <div className="desktopMenu">
         <NavLink
           to="/"
