@@ -38,10 +38,8 @@ const Destination = () => {
       }}
     >
       <div className="relative 2xl:w-[80%] 2xl:top-[25%] md:w-[90%] md:top-[15%] min-h-80 lg:top-1/4 mx-auto sm:top-[10%] sm:w-auto sm:h-[80vh] xl:top-[25%] xl:w-[90%]">
-        <h1 className=" flex text-4xl uppercase tracking-widest mb-20 font-barlow sm:justify-center sm:text-4xl sm:mb-10 lg:w-[90%] lg:mx-auto">
-          <span className="w-20 inline-block text-customDark font-bold">
-            01
-          </span>
+        <h1 className=" flex text-[3rem] uppercase tracking-widest mb-20 font-barlow sm:justify-center sm:text-4xl sm:mb-10 lg:w-[90%] lg:mx-auto">
+          <span className="mr-[2rem] text-customDark font-bold">01</span>
           pick your destination
         </h1>
         {data.destinations.map(

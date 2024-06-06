@@ -39,8 +39,8 @@ const Crew = () => {
       <main className="h-[100%] flex flex-col">
         <div className="w-[100%] h-[90%] mt-[8%] mx-auto flex flex-col md:mt-[12%] sm:mt-[15%] sm:min-h-[80%] lg:h-[80%] lg:mt-[15%] ">
           <div className="h-[10%] w-[80%] mx-auto flex items-center mt-[1rem]  md:w-[90%] sm:h-[5%] sm:mt-[5rem] sm:justify-center">
-            <h1 className="text-4xl font-barlow uppercase tracking-widest">
-              <span className="mr-[1rem] text-customDark">02</span>
+            <h1 className="text-[3rem] font-barlow uppercase tracking-widest">
+              <span className="mr-[2rem] text-customDark font-bold">02</span>
               meet your crew
             </h1>
           </div>
