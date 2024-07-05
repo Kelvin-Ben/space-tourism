@@ -5,6 +5,7 @@ This is a multi-page website that involved different pages based on the Figma de
 ## Prerequisites
 - HTML
 - CSS
+- TAILWINDCSS
 - JavaScript
 - React
 - Git and GitHub
